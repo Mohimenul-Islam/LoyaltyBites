@@ -127,7 +127,7 @@ int main() {
     double popped_data = pop(popped_name);
 
     if (popped_data != -1) {
-        printf("Popped: Name=%s, Data=%.2lf\n", popped_name, popped_data);
+        printf("Customer Served: Name: %s, Payable amount: %.2lf\n", popped_name, popped_data);
     } else break;
 
   }
@@ -135,5 +135,5 @@ int main() {
 }
 void welcome() {
   const char *welcomeMessage = "Welcome to LoyaltyBites";
-  printf("\t\t\t\t\t\t\t%s\n\n", welcomeMessage);
+  printf("\n\n\t\t\t\t\t\t\t%s\n\n", welcomeMessage);
 }
